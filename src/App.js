@@ -22,7 +22,7 @@ function App() {
         <div className="flex-grow container mx-auto px-4 py-6">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/shpoin" element={<Home/>} />
+            <Route path="/shopin-ecommerce" element={<Home/>} />
             <Route path="/store" element={<Store />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
