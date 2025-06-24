@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shopin-ecommerce/static/css/main.9fe78638.css",
+    "main.js": "/shopin-ecommerce/static/js/main.726b340f.js",
+    "static/js/453.ad6eb26e.chunk.js": "/shopin-ecommerce/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/shopin-ecommerce/index.html",
+    "main.9fe78638.css.map": "/shopin-ecommerce/static/css/main.9fe78638.css.map",
+    "main.726b340f.js.map": "/shopin-ecommerce/static/js/main.726b340f.js.map",
+    "453.ad6eb26e.chunk.js.map": "/shopin-ecommerce/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fe78638.css",
+    "static/js/main.726b340f.js"
+  ]
+}
