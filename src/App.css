@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.welcome-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#btn{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome-img img{
+    border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.Latest-Collections p{
+    padding: 50px;
+    margin: 50px;
+}
+
+
+
+.maincenterimg img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+#dealsbtn{
+     border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#dealsbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Ensures sticky footer layout */
+/* index.css or App.css */
+html, body, #root {
+  height: 100%;
+}
+
+
+
+
+.app-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-content {
+  flex: 1;
 }
